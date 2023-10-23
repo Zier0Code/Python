@@ -1,7 +1,17 @@
-for i in range(100):
-    print(i)
-    // Hello
+n = int(input("insert a number from 1-10: "))
 
-num = [1,2,3,4,5]
-for x in num:
-    print(x)
+if n < 10:
+    for i in range(n):
+        print(i)
+        # hello
+
+names = []
+for i in range(2):
+    name = input(f"Add a Name")
+    print(f"{name} is no. {i + 1} name on the list. ")
+    names.append(name)
+
+print("List of Names: ")
+
+for name in names:
+    print(name)
